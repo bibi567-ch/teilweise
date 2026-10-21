@@ -162,6 +162,12 @@ Preparar una cuenta y datos de prueba antes de exponer. No mostrar contraseñas,
 | Despliegue, repositorio y documentación | Instalación reproducible, configuración MongoDB, lockfiles y exclusión de dependencias instaladas |
 | Defensa y autoría | Justificar referencias y subdocumentos, explicar el cálculo del score y describir el payload JWT |
 
-## 11. Cierre
+## 11. Guion oral sugerido
+
+> Buenos días. Soy Eva Lizeth Chino Quispe y voy a presentar PromptVault, un repositorio para crear, organizar y mejorar prompts. El problema que busca resolver es que las instrucciones útiles suelen quedar dispersas, por lo que después cuesta encontrarlas y reconocer qué cambios ayudaron a mejorarlas.
+>
+> El sistema tiene una interfaz React, una API REST con Express y persistencia en MongoDB. Cada prompt referencia a su autor; las versiones y los votos se guardan como subdocumentos para consultarlos junto al contenido. En la demostración voy a iniciar sesión, buscar un prompt, abrir su historial, registrar una valoración y mostrar el formulario para crear otro aporte. El backend verifica los JWT y limita los cambios al autor o a una cuenta con permisos. El formulario público crea cuentas de estudiante; los permisos elevados no se otorgan desde el registro.
+
+## 12. Cierre
 
 PromptVault convierte una colección dispersa de instrucciones en un repositorio consultable y con historial. La propuesta combina una API organizada, persistencia NoSQL adecuada al ciclo de vida del prompt y una interfaz enfocada en explorar y reutilizar contenido. La exposición se completa mostrando el flujo real, las restricciones de acceso y las evidencias capturadas durante la ejecución.

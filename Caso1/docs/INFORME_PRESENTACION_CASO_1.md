@@ -162,6 +162,12 @@ Usar cuentas y datos de prueba, nunca credenciales reales. Para demostrar los di
 | Despliegue, repositorio y documentación | Pasos de instalación reproducibles, `.env.example`, `package-lock.json` y ausencia de dependencias vendorizadas |
 | Defensa y autoría | Explicar el recorrido de una petición, por qué se combinan referencias y subdocumentos y qué contiene el JWT |
 
-## 11. Cierre
+## 11. Guion oral sugerido
+
+> Buenos días. Soy Eva Lizeth Chino Quispe y voy a presentar EducaVault, una aplicación web para organizar el seguimiento de tesis y trabajos de grado. La idea principal es reunir en un mismo lugar el estado del trabajo, sus versiones y las observaciones de quienes participan en la revisión.
+>
+> Separé la aplicación en una interfaz React, una API REST con Express y una base MongoDB. Los perfiles de usuario se relacionan con la tesis mediante referencias, mientras que las versiones y las revisiones se guardan dentro del documento de tesis porque se consultan como parte de su historial. Para la demostración voy a iniciar como estudiante, crear o abrir una tesis y mostrar su nueva versión; después explicaré cómo el tribunal asignado registra una revisión. Las contraseñas se guardan como hash y la API verifica el JWT y los permisos. En este prototipo se guardan los datos del archivo, no su contenido binario.
+
+## 12. Cierre
 
 EducaVault propone un flujo digital sencillo para dar seguimiento a trabajos de grado y conservar su historial. La separación por capas, el modelado mixto de MongoDB y la autenticación por roles responden a las necesidades principales del sistema. En la exposición, cada decisión se puede relacionar con una pantalla y con la parte del código que la implementa.
