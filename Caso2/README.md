@@ -3,5 +3,5 @@
 Sistema web en desarrollo para crear, organizar y compartir prompts.
 
 - [Código fuente](./codigo/)
-- [Informe y evidencias](./docs/)
-- [Instrucciones de ejecución](./docs/INFORME_PRESENTACION_CASO_2.md#8-instalación-y-ejecución-en-windows)
+- [Informe, instrucciones y evidencias](./docs/INFORME_PRESENTACION_CASO_2.docx)
+- [Capturas de ejecución](./docs/evidencias/)
